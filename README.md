@@ -1,4 +1,4 @@
-**Statement: since this is the implementation of the Public Opinion Analysis course at Wuhan University, we can only open source this project after closure.**
+**Statement: since this is the implementation of the Public Opinion Analysis course at Wuhan University, we can only open-source this project after the closure of this course.**
 # FastESA
 FastESA: Entity-Stance Analysis with FastNLP, Official Code Repo
 
