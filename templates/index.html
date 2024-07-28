@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Public opinion analysis</title>
+    <style type="text/css">
+        body{
+                overflow-x: hidden;
+                background-image:url(./static/mountain.jpg);
+                background-repeat:no-repeat;
+                background-size:100%;
+                background-attachment:fixed;
+        }
+    </style>
+</head>
+<body>
+    <form action="/" method="post">
+        <div style="font-family: 楷体;color: black;font-size: 30px;text-align: center;position: relative;top: 10px">舆情分析-实体立场识别</div>
+        <br>
+        <p style="font-family:宋体;color:black;font-size: 25px;text-align: center;">
+            <b>输入文本:</b>
+            <input type="Text" name="input_text" style="width: 200px;height: 30px;">
+            <b><input type="submit" style="font-family: 宋体;width: 50px;height: 30px;"></b>
+        </p>
+        <p style="font-family:宋体;color:black;font-size: 25px;">
+            <!-- <p style="font-family:宋体;color:black;font-size: 25px;position: relative;left: 550px;"> -->
+            <b> 文 本 ： </b>
+        </p>
+        <p style="font-family:宋体;color:black;font-size: 20px;">
+            {{input_text}}
+        </p>
+        <p style="font-family:宋体;color:black;font-size: 25px;">
+            <b> 结 果 ： </b>
+        </p>
+        <p style="font-family:宋体;color:black;font-size: 20px;">
+            {{Result}}
+        </p>
+        <p  style="font-family: 楷体;color: black;font-size: 20px;position: absolute;top:25px;left: 1050px;">
+            <b>组员：张培妍</b><br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>任星雨</b><br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>王怡然</b><br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>姚栋宇</b><br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>万宇宁</b><br>
+        </p>
+        
+    </form>
+    
+</body>
+</html>
